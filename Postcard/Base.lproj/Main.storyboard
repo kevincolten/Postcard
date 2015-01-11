@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3GO-ca-HiU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="etE-x2-3Vh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="QLj-7W-Jx3">
@@ -103,6 +104,15 @@
                                     <rect key="frame" x="48" y="92" width="311" height="64"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECq-tx-lg8">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="48" y="164" width="217" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +122,7 @@
                                 <exclude reference="Fc4-Wm-8nx"/>
                                 <exclude reference="P70-jv-m04"/>
                                 <exclude reference="daH-Tu-7gY"/>
+                                <exclude reference="ECq-tx-lg8"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +132,7 @@
                                 <include reference="Fc4-Wm-8nx"/>
                                 <include reference="P70-jv-m04"/>
                                 <include reference="daH-Tu-7gY"/>
+                                <include reference="ECq-tx-lg8"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="QxF-iF-iUZ" id="ipG-PT-NFj"/>
                         <outlet property="mailButton" destination="P70-jv-m04" id="BkV-hn-l0f"/>
                         <outlet property="messageLabel" destination="daH-Tu-7gY" id="md9-bK-KLm"/>
+                        <outlet property="nameLabel" destination="ECq-tx-lg8" id="7vY-vV-MCG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
